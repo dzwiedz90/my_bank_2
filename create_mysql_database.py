@@ -1,5 +1,8 @@
-import pymysql
+### Used only to create tables in database and fill it with data, database have to be created separatedly
+### Foreign keys need to be added manualy
 
+
+import pymysql
 
 
 def create_database(database):
@@ -59,6 +62,3 @@ def create_database(database):
     db.commit()
     cur.close()
     db.close()
-
-
-create_database('vifon')
