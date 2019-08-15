@@ -1,0 +1,5 @@
+.idea
+.git
+bin
+lib
+__pycache__

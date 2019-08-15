@@ -29,7 +29,7 @@ class DatabaseActions:
         db.commit()
         cur.close()
         db.close()
-        return f'Login: {data[0]}, Imię: {data[1]}, Nazwisko: {data[2]}\nNumer konta: {data[3]}, stan konta: {data[4]}'
+        return f'Login: {data[0]}\n{data[1]} {data[2]}\nNumer konta: {data[3]}\nStan konta: {round(float(data[4]), 2)}'
 
     def transfer_money(self, user_login: str, amount_to_transfer: str) -> None:
         db = pymysql.connect("localhost", "root", "Vifon", self._database)

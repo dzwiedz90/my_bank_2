@@ -6,7 +6,6 @@
     * informacje o kontach bankowych
         * numer konta
         * ilość środków
-        * powiązanie z użytkownikiem
     * informacje o użytkownikach
         * imię
         * nazwisko
@@ -17,8 +16,6 @@
     * logowanie
         * login
         * hasło
-        * powiązanie z użytkownikiem
-        * powiązanie z kontem
 * posiadać ekran logowania
     * łączyć się do bazy w celu sprawdzenia poprawności logowania
     * jeżeli dane są OK umożliwiać logowanie
